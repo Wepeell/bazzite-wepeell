@@ -6,6 +6,7 @@ This is a personal custom image of Bazzite (bazzite:stable).
 
 - [plasma5-wallpapers-dynamic](https://github.com/zzag/plasma5-wallpapers-dynamic)
 - [Starship](https://github.com/starship/starship)
+- [Linux FCP (Focusrite Control Protocol) Support Tools](https://github.com/geoffreybennett/fcp-support)
 
 ## Install
 
