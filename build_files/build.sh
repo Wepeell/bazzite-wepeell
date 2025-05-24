@@ -41,5 +41,12 @@ echo "Starship Shell Prompt installed!"
 
 
 
+# Install Linux FCP (Focusrite Control Protocol) Support Tools
+echo "Installing Linux FCP (Focusrite Control Protocol) Support Tools..."
+/ctx/install-fcp-support.sh || { echo "install-fcp-support.sh failed! Exiting."; exit 1; }
+echo "Linux FCP Support Tools installed!"
+
+
+
 # Clean package manager cache
 dnf5 clean all
