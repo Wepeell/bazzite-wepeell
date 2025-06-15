@@ -137,6 +137,7 @@ jobs:
           for tag in ${{ steps.metadata.outputs.tags }}; do
             buildah rmi "${{ env.IMAGE_NAME }}:$tag" || true
           done
+          buildah rmi --prune || true
 
       - name: Retag for Rechunker to find via localhost
         run: |
